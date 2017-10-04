@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 500;
+    margin-bottom: -3px;
+    color: #2C3D82;
+}
+span{
+    font-family: fontello;
+    font-size: 15px;
+    color: #6F83D6;
+}
+span:hover{
+    color: #2C3D82;
+}
+p{
+    font-family: Courgette;
+    color: #6F83D6;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+ul{
+    list-style: none;
+}
+.wrapper{
+    width: 50%;
+    height: 400px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    position: relative;
+}
+
+li{
+    margin-bottom: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 200px;
+    padding: 15px 0;
+    outline: none;
+}
+li:last-child{
+    margin-bottom: 40px;
+}
+input{
+    height: 53px;
+    width: 40%;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-indent: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: 1px solid #6F83D6;
+}
+button{
+    box-sizing: border-box;
+    height: 53px;
+    width: 90px;
+    background-color: #2C3D82;
+    border: none;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    outline: none;
+}
+button:hover{
+    background-color: #090974;
+}
+.controlls{
+    height: 53px;
+    line-height: 53px;
+}
